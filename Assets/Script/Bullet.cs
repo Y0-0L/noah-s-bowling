@@ -20,6 +20,11 @@ public class Bullet : MonoBehaviour
         if (isShooting)
         {
             transform.position = Vector3.MoveTowards(transform.position, destPosition, 0.3f);
+            if (transform.position == destPosition)
+            {
+                isShooting = false;
+                GameManager.Instance.LoadAnimal();
+            }
         }
     }
 

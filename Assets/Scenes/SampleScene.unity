@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.18028305, g: 0.22571313, b: 0.3069213, a: 1}
+  m_IndirectSpecularColor: {r: 0.18028378, g: 0.22571412, b: 0.30692285, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -783,14 +783,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 963194225}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 24.82, z: -10}
+  m_LocalRotation: {x: 0.06660074, y: -0, z: -0, w: 0.9977797}
+  m_LocalPosition: {x: 0, y: 26.81, z: -11.87}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 7.638, y: 0, z: 0}
 --- !u!1 &1097450753
 GameObject:
   m_ObjectHideFlags: 0
@@ -1247,6 +1247,7 @@ MonoBehaviour:
   bulletPref: {fileID: 1395198556640184, guid: 86e3e6cdfacd71c408d424f62823a011, type: 3}
   baseSpwanPos: {fileID: 2080287710}
   bulletSpawnPos: {fileID: 636268855}
+  ReadyToShoot: 0
   moveSpeed: 0
 --- !u!4 &1801448034
 Transform:
